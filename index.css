@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+    background-color: rgba(224, 223, 209, 0.637), 167);
+}
+
+li { display: inline;  }
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0px;
+    padding: 0;
+    background-color: #333;
+    list-style-type: none;
+}
+
+.nav-item{
+    padding: 15px;  
+}
+
+.nav-item a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-container :hover {
+    background-color: gray;
+}
+
+h1{
+    color: gray;
+    text-shadow: 2px 2px 2px #000000;
+}
+nav {
+    text-align: center;
+}
+.main {
+    padding: 20px;
+}
